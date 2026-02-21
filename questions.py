@@ -1,5 +1,5 @@
 #Prompt: assign a list to the values [1, 2, 3, 4, 5]. Calculate (we've decided on calculating the average), then output the list backwards.
-def questionSeven(myList, myListAverage):
+def questionSeven():
   myList = [1, 2, 3, 4, 5]
   myListAverage = sum(myList) / len(myList)
 
@@ -9,13 +9,13 @@ def questionSeven(myList, myListAverage):
 
 
 #Prompt: assign a variable to the string "seven." Output the string with 1 of the first letter followed by 2 of the second letter...5 of the fifth letter.
-def questionEight(myVar):
+def questionEight():
   myVar = "seven"
   for i in range(len(myVar)):
     print(myVar[i] * (i + 1))
 
 #Declare a var, assign it to "froglizardfroglizard," and output True if "frog" and lizard appear the same number of times. If last condition is not true, output False.
-def questionTen(myVar, frogCount, lizardCount):
+def questionTen():
   myVar = "froglizardfroglizard"
   frogCount = 0
   lizardCount = 0
@@ -32,7 +32,7 @@ def questionTen(myVar, frogCount, lizardCount):
   else:
     print(False)
 
-def questionNine(my_var, rmdr, days):
+def questionNine():
   my_var = 5
   rmdr = my_var % 7
   days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
