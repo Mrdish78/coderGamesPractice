@@ -38,3 +38,13 @@ def questionNine():
   days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 
   print(days[rmdr])
+
+def questionEleven():
+  weirdList = [8, 6, 2, 8, 7, 5, 2]
+  weirdListSum = 0
+  
+  for v in weirdList:
+      if v != 8 and v!= 2:
+          weirdListSum += v
+  
+  print(weirdListSum)
