@@ -31,3 +31,10 @@ def questionTen(myVar, frogCount, lizardCount):
     print(True)
   else:
     print(False)
+
+def questionNine(my_var, rmdr, days):
+  my_var = 5
+  rmdr = my_var % 7
+  days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+
+  print(days[rmdr])
