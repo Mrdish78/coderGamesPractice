@@ -58,3 +58,26 @@ def questionTwelve():
       dict1[list1[i]] = list2[i]
       
   print(dict1)
+
+def questionTwelveAlt():
+  list1 = [1, 2, 3]
+  list2 = [4, 5, 6]
+  dict1 = dict(zip(list1, list2))
+  
+  
+  print(dict1)
+
+'''var1 = 8
+var2 = 2
+
+
+if var1 > var2:
+    for i in range(var1, var2, var2 * -1):
+        if var1 % i == 0:
+            print(i)
+elif var2 < var1:
+    for i in range(var2, var1, var1 * -1):
+        if var1 % i == 0:
+            print(i)
+else:
+    print(var1)'''
