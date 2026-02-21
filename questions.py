@@ -14,7 +14,7 @@ def questionEight():
   for i in range(len(myVar)):
     print(myVar[i] * (i + 1))
 
-#Declare a var, assign it to "froglizardfroglizard," and output True if "frog" and lizard appear the same number of times. If last condition is not true, output False.
+#Prompt: declare a var, assign it to "froglizardfroglizard," and output True if "frog" and lizard appear the same number of times. If last condition is not true, output False.
 def questionTen():
   myVar = "froglizardfroglizard"
   frogCount = 0
